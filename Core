@@ -1,0 +1,27 @@
+#Snippit Core from discussion with Sensei Zen 
+# 2016-10-03
+
+snip_list = []
+snip = {
+    'name':'mySnippet',
+    'code':'for x in range(1,7): \n    print(x)',
+    'tags':['loop', 'for'],
+    'language':'python',
+    'notes': 'my awesome for loop code.'
+    }
+    
+snip_list.append(snip)
+
+snip = {
+    'name':'Loop',
+    'code':'while x < 7: \n    print(x)',
+    'tags':['loop', 'while'],
+    'language':'python',
+    'notes': 'my awesome while loop code.'
+    }
+    
+snip_list.append(snip)
+
+
+
+print(snip_list[1]['tags'][0])
